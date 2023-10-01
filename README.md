@@ -1,0 +1,13 @@
+# :book: Algorithms
+
+### This repository is for code example in grokking algorithms.
+
+---
+
+
+
+---
+
+[:brazil: Entendendo Algoritmos](https://www.amazon.com.br/Entendendo-Algoritmos-Ilustrado-Programadores-Curiosos/dp/8575225634/ref=sr_1_1?keywords=entendendo+algoritmos&sr=8-1)
+
+[:us: Grokking Algorithms](https://www.amazon.com.br/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230/ref=sr_1_1?keywords=grokking+algorithms&sr=8-1&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12)
