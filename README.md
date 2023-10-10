@@ -4,7 +4,7 @@
 
 ---
 
-
+[🔎📦 Binary search](./binary_search/binary_search.md)
 
 ---
 
