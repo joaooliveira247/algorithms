@@ -43,7 +43,7 @@ def regressive(i: int) -> None:
         bye()
     ```
 
-    ![greet_call_stack](https://imgur.com/tVWkGJv)
+    <a href="https://imgur.com/tVWkGJv"><img src="https://i.imgur.com/tVWkGJv.png" title="source: imgur.com" /></a>
 
 ---
 
