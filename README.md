@@ -10,6 +10,8 @@
 
 [🔄 Recursion](./recursion/recursion.md)
 
+[🛄💨 Quick sort](./quick_sort/quick_sort.md)
+
 ---
 
 [:brazil: Entendendo Algoritmos](https://www.amazon.com.br/Entendendo-Algoritmos-Ilustrado-Programadores-Curiosos/dp/8575225634/ref=sr_1_1?keywords=entendendo+algoritmos&sr=8-1)
