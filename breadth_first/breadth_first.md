@@ -41,3 +41,7 @@ A graphs models a set o connections.
 
 - Queues are FIFO (First In, First Out)
 
+`code example`
+
+[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20px" />
+Python](./python/main.py)
