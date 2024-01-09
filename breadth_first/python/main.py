@@ -1,9 +1,6 @@
+from __future__ import annotations
 from collections import deque
 from dataclasses import dataclass
-from typing import TypeVar
-from icecream import ic
-
-Self = TypeVar("Self", bound="Graph")
 
 
 @dataclass
@@ -16,7 +13,7 @@ class Graph:
     __iter_index: int = 0
 
     def __init__(self) -> None:
-        self.__slot__: dict[str, Person] = {}
+        self.__slot__: dict[str, list[Person]] = {}
 
     def __repr__(self) -> str:
         return f"({self.__class__.__name__}): {self.__slot__}"
@@ -31,8 +28,8 @@ class Graph:
         self.__slot__[name] = list(person)
         return f"{name}: {[*person]}"
 
-    def __iter__(self) -> Self:
-        self.__static_graph_values: list[tuple[str, Person]] = list(
+    def __iter__(self) -> Graph:
+        self.__static_graph_values: list[tuple[str, list[Person]]] = list(
             self.__slot__.items()
         )
         return self
@@ -45,13 +42,13 @@ class Graph:
         return value
 
 
-def search(name: str, graph: Graph) -> (str, bool):
+def search(name: str, graph: Graph) -> tuple[str, bool]:
     search_queue: deque = deque()
     search_queue += graph[name]
-    searched: list[Person] = []
+    searched: list[str] = []
     while search_queue:
         person: Person = search_queue.popleft()
-        if not person.name in searched:
+        if person.name not in searched:
             if person.is_mango_seller:
                 return f"{person.name} is mango seller", True
             search_queue += graph[person.name]
