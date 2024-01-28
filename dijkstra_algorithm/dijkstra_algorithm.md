@@ -45,3 +45,12 @@
   Final trade
 
   `Book -> LP -> Drums -> Piano`
+
+`Code examples:`
+
+`1º example`
+
+![graph_diagram](https://i.imgur.com/vFgewTk.png)
+
+[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20px" />
+Python](./python/main.py)
