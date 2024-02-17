@@ -18,6 +18,8 @@
 
 [🔵📈 Dijkstra's algorithm](./dijkstra_algorithm/dijkstra_algorithm.md)
 
+[🤤 Greedy Algorithms](./greedy_algorithms/greedy_algorithms.md)
+
 ---
 
 [:brazil: Entendendo Algoritmos](https://www.amazon.com.br/Entendendo-Algoritmos-Ilustrado-Programadores-Curiosos/dp/8575225634/ref=sr_1_1?keywords=entendendo+algoritmos&sr=8-1)
